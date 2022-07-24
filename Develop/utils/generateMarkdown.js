@@ -55,7 +55,7 @@ ${data.usageInformation}
 ${data.contributionGuidelines}
 
 ## License
-${renderLicenseSection(data.licenseType)}
+${data.licenseType}
 
 ## Test Instructions
 ${data.testInstructions}
