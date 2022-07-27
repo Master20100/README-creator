@@ -2,9 +2,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("../Develop/utils/generateMarkdown");
-const { defaultMaxListeners } = require("events");
-const { builtinModules } = require("module");
-const { NONAME } = require("dns");
 
 // TODO: Create an array of questions for user input
 const questions = [{
