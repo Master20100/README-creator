@@ -1,11 +1,11 @@
-# MAR project
+# README-CREATOR
 
-![This is an image](https://img.shields.io/badge/license-Apache%202.0-brightgreen)
+
 
 
 
 ## Description
-An application to display top 10 youtube videos
+a project to generate a professional readme file
 
 ## Table of Contents
 - [Installation instructions](#installation-instructions)
@@ -17,20 +17,20 @@ An application to display top 10 youtube videos
 
 
 ## Installation instructions 
-```It does not installation, just open the link from broswer```
+```node index.js```
 
 ## Usage Information
-can be used on any platform
+Complete all questions to get a professional readme file
 
 ## Contribution Guidelines
-an open source project
+no contribution required
 
 ## License
-Apache 2.0<br>
-[License link](#license)
+None<br>
+
 
 ## Test Instructions
-test it on chrome, on safari and on edge
+working on node js
 
 ## Questions
 -GitHub username:<br>Master20100<br>
