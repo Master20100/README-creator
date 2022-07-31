@@ -1,30 +1,30 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(license !== "None"){
-  let image = `![This is an image](https://img.shields.io/badge/license-${license.replace(" ","%20")}-brightgreen)`;
-  return image;}
-  else{return ""}
+  if (license !== "None") {
+    let image = `![This is an image](https://img.shields.io/badge/license-${license.replace(" ", "%20")}-brightgreen)`;
+    return image;
+  }
+  else { return "" }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license == "None"){ return ""}
-  else{ return `[License link](http://www.${license.replaceAll(" ","")}.com)`
-
-    }
-
+  if (license == "None") { return "" }
+  else {
+    return `[License link](http://www.${license.replaceAll(" ", "")}.com)`
+    // else{ return `[License link](#license)`
+  }
 
 }
-
-
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license == "None"){return ""}
-  else{ return `#license`
+  if (license == "None") { return "" }
+  else {
+    return `#license`
 
   }
 }
@@ -50,7 +50,7 @@ ${data.description}
 
 
 ## Installation instructions 
-${data.installationInstructions}
+\`\`\`${data.installationInstructions}\`\`\`
 
 ## Usage Information
 ${data.usageInformation}
