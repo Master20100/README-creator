@@ -17,6 +17,6 @@ every section in the file to make it easier for the user to navigate through the
 by clicking on the links in the readme file.
 
 project video link
-https://drive.google.com/file/d/1iRMAzvSwgkTqTUyPvVtK4RISLKo603CV/view?usp=sharing
+https://youtu.be/r-PGNnPjqSU
 
 project does not have an image file, its node based.
